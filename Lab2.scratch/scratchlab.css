@@ -1,16 +1,6 @@
-#content{
-    padding: 20px;
+.minor-section {
+    padding: 10px;
     margin-bottom: 10px;
-    border: solid 3px; color:rgb(13, 103, 119);
-    background-color:rgb(240, 136, 0);
-}
-
-h1 {
-    letter-spacing: 5px;
-    word-spacing: 5px;
-    font-size: 200%;
-  }
-
-  h1,h2,h3 {
-    font-family: "fantasy";
+    border: solid 1px #888;
+    background-color: #a49351;
   }
