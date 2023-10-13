@@ -4,6 +4,29 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #a49351;
+    border: solid 1px #0b807e;
+    background-color: #fbb400;
+  }
+
+  h1,h2,h3 {
+    font-family: "merriweather";
+    font-size: 200%;
+    color: rgb(54, 92, 98);
+  }
+
+  p {
+    font-family: "garamond";
+    font-size: 100%;
+    color:rgb(27, 59, 68)
+  }
+  
+  #content {
+    background-color:antiquewhite;
+    width:500px;
+    min-height:50px;
+    margin:100px;
+    padding:100px ;
+    border: dotted 5px;
+    font-size:15px;
+    position:relative; top:0px; left: 300px; bottom:0px; right:-300px; 
   }
