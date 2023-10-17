@@ -2,8 +2,7 @@
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #0b807e;
-  background-color: #fbb400;
+  border: solid 1px #65a1a0;
 }
 
 h1,h2,h3 {
@@ -19,7 +18,7 @@ p {
 }
 
 #content {
-  background-color:antiquewhite;
+  background-color:rgb(238, 208, 168);
   width:500px;
   min-height:50px;
   margin:100px;
