@@ -58,6 +58,11 @@ p {
   margin: 10px;
 }
 
+#uploaded-website {
+  max-width: 300px;
+  margin: 10px;
+}
+
 #extra-credit {
   max-width: 300px;
   margin: 10px;
