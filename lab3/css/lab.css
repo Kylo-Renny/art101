@@ -48,6 +48,11 @@ p {
   margin: 10px;
 }
 
+#added-lab-3-screenshots {
+  max-width: 300px;
+  margin: 10px;
+}
+
 #pushed-files {
   max-width: 300px;
   margin: 10px;
