@@ -27,3 +27,33 @@ p {
   font-size:15px;
   position:relative; top:0px; left: 300px; bottom:0px; right:-300px; 
 }
+
+#local-file-structure {
+  max-width: 300px;
+  margin: 10px;
+}
+
+#source-code-editor {
+  max-width: 300px;
+  margin: 10px;
+}
+
+#lab-3-source-code-editor {
+  max-width: 300px;
+  margin: 10px;
+}
+
+#lab-3-index-in-browser {
+  max-width: 300px;
+  margin: 10px;
+}
+
+#pushed-files {
+  max-width: 300px;
+  margin: 10px;
+}
+
+#extra-credit {
+  max-width: 300px;
+  margin: 10px;
+}
