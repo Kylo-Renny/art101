@@ -14,13 +14,13 @@ h1 {
   text-align: center;
 }
 
-p,pre,code {
+p {
   font-family: "garamond";
   font-size: 100%;
   color:rgb(16, 66, 79)
 }
 
-ol,ul {
+ol,ul,pre,code {
   font-family: "garamond";
   font-size: 100%;
   color:rgb(23, 88, 104)
@@ -44,9 +44,9 @@ ol,ul {
 }
 
 .Pseudocode{
-  background-color: 404040;
+  background-color: grey;
   color:white
-  
+
 }
 
 img:hover {
