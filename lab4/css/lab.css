@@ -43,6 +43,12 @@ ol,ul {
   width: 100%;
 }
 
+.Pseudocode{
+  background-color: 404040;
+  color:white
+  
+}
+
 img:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
