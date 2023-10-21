@@ -17,6 +17,10 @@ p {
   color:rgb(27, 59, 68)
 }
 
+h1 {
+  text-align: center;
+}
+
 #content {
   background-color:rgb(238, 208, 168);
   width:500px;
