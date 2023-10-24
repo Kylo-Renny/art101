@@ -4,14 +4,14 @@
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #0b807e;
-  background-color: #fbb400;
+  border: solid 1px #046e6c;
+  background-color: #c08237;
 }
 
 h1,h2,h3 {
   font-family: "merriweather";
   font-size: 200%;
-  color: rgb(54, 92, 98);
+  color: rgb(28, 46, 49);
 }
 
 h1 {
@@ -21,11 +21,11 @@ h1 {
 p {
   font-family: "garamond";
   font-size: 100%;
-  color:rgb(27, 59, 68)
+  color:rgb(17, 50, 31)
 }
 
 #content {
-  background-color:antiquewhite;
+  background-color:rgb(211, 184, 146);
   width:500px;
   min-height:50px;
   margin:100px;
