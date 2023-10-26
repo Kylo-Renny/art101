@@ -8,13 +8,13 @@
   background-color: #c08237;
 }
 
-h1,h2,h3 {
+h1,h2,h3,output {
   font-family: "merriweather";
   font-size: 200%;
   color: rgb(28, 46, 49);
 }
 
-h1 {
+h1,output {
   text-align: center;
 }
 
@@ -22,6 +22,14 @@ p {
   font-family: "garamond";
   font-size: 100%;
   color:rgb(17, 50, 31)
+}
+#corolla-cross {
+  max-width: 300px;
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 #content {
