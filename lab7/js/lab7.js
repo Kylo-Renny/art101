@@ -19,5 +19,5 @@ function sortName() {
 }
 
 //output
-document.writeln("Actually it broke so you can have it back:",
+document.writeln("Actually it broke so you can have it back: ",
     sortName(), "</br>");
