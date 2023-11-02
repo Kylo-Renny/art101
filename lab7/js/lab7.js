@@ -2,4 +2,23 @@
 // Author:Ren Murphy
 // Date:11/3/21
 
-// Define Variables
+// Define Variables - sortName - a function that takes user input and sorts the letters of their name
+function sortName() {
+    var userName = window.prompt("Hey there! Can I get your name?");
+    console.log("userName =",userName);
+    //split string to array
+    var nameArray = nameUser.split('');
+    console.log("nameArray =",nameArray);
+    //sort the array
+    var nameArraySort = nameArray.sort();
+    console.log("nameArraySort=", nameArraySort);
+    //join array back to a string
+    var nameSorted = nameArraySort.join('');
+    console.log("nameSorted =", nameSorted);
+    return nameSorted;
+}
+
+//output
+document.writeln("Actually it broke so you can have it back:",
+    sortedUserName(), "</br>");
+    
