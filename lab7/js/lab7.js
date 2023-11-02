@@ -20,4 +20,4 @@ function sortName() {
 
 //output
 document.writeln("Actually it broke so you can have it back:",
-    sortedUserName(), "</br>");
+    sortName(), "</br>");
