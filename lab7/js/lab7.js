@@ -17,8 +17,10 @@ function sortName() {
 
     //join array back to a string
     var nameSorted = nameArraySort.join('');
+
     console.log("nameSorted =", nameSorted);
-    userName.toLower().split("").sort().join("");
+    userName.toLowerCase().split('').sort().join('')
+    userName.toUpperCase().split('').sort().join('')
     return nameSorted;
 }
 
