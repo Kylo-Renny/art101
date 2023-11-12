@@ -34,3 +34,27 @@ p {
   font-size:15px;
   position:relative; top:0px; left: 300px; bottom:0px; right:-300px; 
 }
+
+
+.specialone {
+  background-color: lavender;
+  border: dotted 50px rgb(56, 87, 60)(8, 0, 255);
+  color: pink;
+  font-weight: bold;
+} 
+
+
+.specialtwo {
+  background-color: lavender;
+  border: dotted 50px rgb(217, 136, 136);
+  color: rgb(159, 180, 145);
+  font-weight: bold;
+}
+
+
+.specialthree {
+  background-color: lavender;
+  border: dotted 50px rgb(90, 72, 144);
+  color: rgb(207, 160, 56);
+  font-weight: bold;
+}
