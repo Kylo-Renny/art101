@@ -20,3 +20,9 @@ array.map(function(x) {
     var results = x * 0.5
     return results;
 })
+
+
+
+
+//results
+console.log("Here are my numbers", results);
