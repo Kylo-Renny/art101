@@ -4,7 +4,7 @@
 
 // The Goal is to make JQuery Operational in this lab
 
-$("#challenge").append("<button id='button-challenge'>Make Special</button>");
+$("#challenge").append("<button id='button-challenge'>Click Me!</button>");
 
 // add a click listener to the challenge button
 $("button-challenge").click(function(){
@@ -14,7 +14,7 @@ $("button-challenge").click(function(){
 });
 
 //////////////////////////////////////////////////////////////////////////////////////
-$("#problems").append("<button id='button-problems'>Make Special</button>");
+$("#problems").append("<button id='button-problems'>Click Me!</button>");
 
 // add a click listener to the problems button
 $("button-problems").click(function(){
@@ -24,7 +24,7 @@ $("button-problems").click(function(){
 });
 
 //////////////////////////////////////////////////////////////////////////////////////
-$("#results").append("<button id='button-results'>Make Special</button>");
+$("#results").append("<button id='button-results'>Click Me!</button>");
 
 // add a click listener to the challenge button
 $("button-results").click(function(){
