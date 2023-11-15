@@ -1,5 +1,9 @@
+//experiments.js
+//This is an Experimemt Folder
+//Author: Ren Murphy
+//Creation Date: 11/15/23
 
-
+//Experiment 11/15/23
 $("#my-button").click(
     function() {
 
@@ -7,5 +11,5 @@ $("#my-button").click(
 
     $('#title').html('Hello ' + name);
     });
-
+//////////////////////////////////////////////////////
  
