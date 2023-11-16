@@ -10,7 +10,7 @@ function generateRandomText() {
     ///The Smallest Message
     const min = 3;
     ///The Largest Message
-    const max = 100;
+    const max = 300;
 
     const randLen = Math.floor(Math.random() * (max - min + 1)) + min;
     // Get a random starting index to slice the Lorem Ipsum text
@@ -28,6 +28,8 @@ $("#make-convo").click(function(){
     $("#output").append('<div class="text"><p>' + newText + '</p></div>');
 
 });
+
+
 
 
 

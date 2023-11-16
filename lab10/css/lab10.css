@@ -34,3 +34,70 @@ p {
   font-size:15px;
   position:relative; top:0px; left: 300px; bottom:0px; right:-300px; 
 }
+
+.text p::first-letter {
+  text-transform:capitalize;
+}
+
+.text p {
+  display: inline-block;
+  max-width: 60%;
+  margin: 3px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: darkgray;
+  color: white;
+  font-family: sans-serif;
+}
+
+button {
+  appearance: auto;
+  text-rendering: auto;
+  color: buttontext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: buttonface;
+  margin: 0em;
+  padding-block: 1px;
+  padding-inline: 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+}
+
+.text:nth-child(odd) {
+  text-align: left;
+}
+
+.text:nth-child(odd) p {
+  background-color: rgb(233, 233, 233);
+  color: black;
+}
+
+.text:nth-child(even) {
+  text-align: right;
+}
+
+.text:nth-child(even) p {
+  background-color: #45ba59;
+  color: white;
+}
+
+#output {
+  background-color: white;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 15px;
+  border: solid 1px black;
+  min-height: 100px;
+}
