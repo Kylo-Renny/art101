@@ -4,14 +4,14 @@
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #873e23; 
-  background-color: #e8a776;
+  border: solid 1px #cd9c76; 
+  background-color: #FECEAB;
 }
 
 h1,h2,h3 {
   font-family: "merriweather";
   font-size: 200%;
-  color: rgb(218, 218, 212);
+  color: #E84A5F ;
 }
 
 h1 {
@@ -21,11 +21,11 @@ h1 {
 p {
   font-family: "garamond";
   font-size: 100%;
-  color:rgb(238, 238, 228)
+  color:  #2a363b;
 }
 
 #content {
-  background-color:rgb(64, 140, 202);
+  background-color:#99B898;
   width:500px;
   min-height:50px;
   margin:100px;
@@ -80,8 +80,8 @@ button {
 }
 
 .text:nth-child(odd) p {
-  background-color: rgb(233, 233, 233);
-  color: black;
+  background-color: rgb(64, 140, 202);
+  color: white;
 }
 
 .text:nth-child(even) {
@@ -89,7 +89,7 @@ button {
 }
 
 .text:nth-child(even) p {
-  background-color: #45ba59;
+  background-color: #873e23;
   color: white;
 }
 
