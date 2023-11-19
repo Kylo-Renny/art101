@@ -4,14 +4,14 @@
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #873e23; 
-  background-color: #e8a776;
+  border: solid 1px #cd9c76; 
+  background-color: #FECEAB;
 }
 
 h1,h2,h3 {
   font-family: "merriweather";
   font-size: 200%;
-  color: rgb(218, 218, 212);
+  color: #E84A5F ;
 }
 
 h1 {
@@ -21,11 +21,11 @@ h1 {
 p {
   font-family: "garamond";
   font-size: 100%;
-  color:rgb(238, 238, 228)
+  color:  #2a363b;
 }
 
 #content {
-  background-color:rgb(64, 140, 202);
+  background-color:#99B898;
   width:500px;
   min-height:50px;
   margin:100px;
@@ -33,4 +33,8 @@ p {
   border: dotted 5px;
   font-size:15px;
   position:relative; top:0px; left: 300px; bottom:0px; right:-300px; 
+}
+
+.text p::first-letter {
+  text-transform:capitalize;
 }
