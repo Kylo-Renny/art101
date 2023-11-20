@@ -33,7 +33,7 @@ $('#my-second-button').click(function() {
     console.log("Prompt returned" + name);
 
     $('#title2').html('Hello ' + name +"!");
-      
+
     });
 
 //////////////////////////////////////////////////////
