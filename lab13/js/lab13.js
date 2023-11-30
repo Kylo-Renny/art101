@@ -4,62 +4,64 @@
 
 // Define Variables
 
-function outputToPage(str) {
-    newEl = document.createElement("p");
-    newEl.innerHTML = str;
-    outputEl.appendChild(newEl);
-}
-
-////////////////////////////////////////////////////
-
-// given a number and an object that looks like this:
-//      {3: "Fizz", 5: "Buzz", 7: "Boom"}
-// loops over the numbers and outputs the number and the matching text
-// for factors
-function fizzBuzzBoom(maxNums, factorObj) {
-    // iterate over all of out numbers
-    for (var num=0; num<maxNums; num++) {
-        debugger;
-        // reset output string
-        var outputStr = "";
-        // iterate over the factors we got from the html
-        for (var factor in factorObj) {
-            // check to see if this num is a multiple of factor
-            if (num % factor == 0) {
-                // if yes, than add the text to output string
-                outputStr += factorObj[factor];
-            }
-        }
-        // now if we have words in outputStr, format it like this " - FizzBuzz!"
-        if (outputStr) {
-            outputStr = " - " + outputStr + "!";
-        }
-        outputToPage(num.toString() + outputStr)
+$("#submit").click(function fizzBuzzBoom() {
+    //set the numerical parameters
+    for (var i=1; i<=200; i++) {
+      
+    //for numbers that are multiples of 3, 5, and 7
+    //print FizzBuzzBoom!
+    if (i % 3===0 && i % 5===0 && i % 7===0) {
+        console.log("FizzBuzzBoom!");
+        $("#output").append("<p> FizzBuzzBoom! </p>");
     }
-}
-
-//////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-function reportError(str) {
-    outputEl.innerHTML = "<div class='error'>" + str + "</div>";
-}
-
-document.getElementById("submit").addEventListener("click", function() {
-    var max = document.getElementById("max").value;
-    console.log("max:", max)
-    if (! max) {
-        reportError("You must provide a maximum");
-        return;
+    
+    //for numbers that are multiple of 3 and 5 
+    //print FizzBuzz
+    else if (i % 3===0 && i % 5===0) {
+        console.log("FizzBuzz!");
+        $("#output").append("<p> FizzBuzz! </p>");
     }
-    var factorObj = getFactorObj();
-    console.log("factorObj:", factorObj);
-    if (Object.keys(factorObj).length === 0) {
-        reportError("You must provide at least one factor and text");
-        return;
+    
+    //for numbers multiples of 3 and 7
+    //print FizzBoom!
+    else if (i % 3===0 && i % 7===0) {
+        console.log("FizzBoom!");
+        $("#output").append("<p> FizzBoom! </p>");
     }
-    // clear error if there is one
-    outputEl.innerHTML = "";
-    fizzBuzzBoom(max, factorObj);
-    outputEl.classList.add("cols");
-})
+    
+    //for numbers multiples 5 and 7
+    //print BuzzBoom!
+    else if (i % 5===0 && i % 7===0) {
+        console.log("BuzzBoom!");
+        $("#output").append("<p> BuzzBoom! </p>");
+    }
+    
+    //for numbers multiples of 3 
+    //print Fizz!
+    else if (i % 3===0) {
+        console.log("Fizz!");
+        $("#output").append("<p> Fizz! </p>");
+    }
+    
+    //for numbers multiples of 5
+    //print Buzz!
+    else if (i % 5===0) {
+        console.log("Buzz!");
+        $("#output").append("<p> Buzz! </p>");
+    }
+    
+    //for numbers multiples of 7
+    //print Boom!
+    else if (i % 7===0) {
+        console.log("Boom!");
+        $("#output").append("<p> Boom! </p>");
+    }
+    
+    else {
+        console.log (i);
+        $("#output").append("<p>" + i + "</p>");
+    }
+    
+    }
+    });
+    
