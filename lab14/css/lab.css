@@ -34,3 +34,39 @@ p {
   font-size:15px;
   position:relative; top:0px; left: 300px; bottom:0px; right:-300px; 
 }
+
+#lab-4 {
+  max-width: 300px;
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#lab-4-code {
+  max-width: 300px;
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#lab-7 {
+  max-width: 300px;
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#lab-7-code {
+  max-width: 300px;
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
