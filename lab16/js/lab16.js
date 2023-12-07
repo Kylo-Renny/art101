@@ -2,4 +2,27 @@
 // Author:Ren Murphy
 // Date:12/8/21
 
-// Define Variables
+/////////////////////////////////////////////
+
+// using the $.ajax.()method 
+$.ajax({
+    //url request from the Api docs
+    url: "https://xkcd.com/info.0.json",
+    //The data to send - will be converted to a query string
+    //This is where any data required by the API will go w/ id and API key
+    data: {"month": "12", "num": 2864, "link": "", "year": "2023", "news": "", "safe_title": "Compact Graphs", "transcript": "", "alt": "People may complain about readability, but even with jpeg compression, extracting the data points is usually computationally feasible if there aren't too many of them.", "img": "https://imgs.xkcd.com/comics/compact_graphs.png", "title": "Compact Graphs", "day": "6"},
+    //Whether this is a POST or GET request
+    type: "GET",
+    //The data we expect back
+    dataType:"json",
+    //What is done when the API call is successful
+    succeess: function(data) {
+        //set the action
+        console.log(data);
+    },
+    //What is done when the API call fails
+    error: function(jqXHR, textStatus, errorThrown){
+        //set the action
+        console.log("Error: Debug Needed?", textStatus, errorThrown);
+    }
+})
