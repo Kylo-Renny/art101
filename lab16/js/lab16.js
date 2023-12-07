@@ -18,7 +18,21 @@ $.ajax({
     //What is done when the API call is successful
     succeess: function(data) {
         //set the action
-        console.log(data);
+        var imageUrl = data.img;
+        var title = data.title;
+        console.log("orig title:", title);
+        title=make_safe(title);
+        console.log("safe title:", title);
+        var alt = data.alt;
+        console.log("orig alt:", alt);
+        alt = make_safe(alt);
+        console.log("safe alt:", alt);
+        var comicNum = data.num;
+        var html = `<div id="image block">
+        <h4>${title}</h4>
+        <img src="${imageUrl}" title="${alt}"><br>
+        <button id="prev">Previous</button><button id="next">Next</button>
+      </div>`
     },
     //What is done when the API call fails
     error: function(jqXHR, textStatus, errorThrown){
