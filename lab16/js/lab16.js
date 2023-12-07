@@ -28,11 +28,25 @@ $.ajax({
         alt = make_safe(alt);
         console.log("safe alt:", alt);
         var comicNum = data.num;
+        ///////////////////////////////////////////////////////////////////
+        //I still don't understand what this part does
         var html = `<div id="image block">
         <h4>${title}</h4>
         <img src="${imageUrl}" title="${alt}"><br>
         <button id="prev">Previous</button><button id="next">Next</button>
       </div>`
+    /////////////////////////////////////////////////////////////////////
+       // console.log("My new html: \n", html);
+       $("#output").html(html);
+
+       // add event listener to new prev button
+       $("#prev").click(function(){
+         getComic(comicNum - 1);
+       });
+       // add event listener to new next button
+       $("#next").click(function(){
+         getComic(comicNum + 1);
+       });
     },
     //What is done when the API call fails
     error: function(jqXHR, textStatus, errorThrown){
